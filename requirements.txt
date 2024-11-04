@@ -1,0 +1,6 @@
+openai>=0.28.0
+flask>=2.0.0
+python-dotenv>=0.21.0
+pinecone-client>=2.2.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.10
