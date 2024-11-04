@@ -1,0 +1,113 @@
+/* Set a global font family for the entire page */
+body {
+  font-family: 'Arial', sans-serif;  /* You can change 'Arial' to any preferred font */
+  background-color: #f4f4f9;  /* Light background */
+}
+
+/* Container styling */
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif; /* Ensure the font applies here as well */
+}
+
+/* Heading styling */
+h1, h3 {
+  font-family: 'Arial', sans-serif; /* Explicitly set the font family */
+  text-align: center;
+}
+
+/* Chatbox and input styling */
+.chatbox {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: 'Arial', sans-serif; /* Apply the font to the textarea */
+  font-size: 16px; /* Adjust the font size if needed */
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif; /* Button font */
+  font-size: 16px; /* Adjust font size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Loader style */
+.loader {
+  border: 6px solid #f3f3f3; /* Light gray */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+  display: block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Response and recommendation sections */
+.response, .recommendations {
+  margin-top: 20px;
+}
+
+#answer, #recommendations {
+  font-size: 16px; /* Adjust the font size */
+  padding: 10px;
+  background-color: #f4f4f9;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: 'Arial', sans-serif; /* Apply font family to response and recommendations */
+}
+
+/* Styling for recommendation buttons */
+.recommendation-button {
+  display: inline-block;
+  margin: 5px 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+.recommendation-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the logo */
+.logo-container {
+  text-align: center; /* Center the logo */
+  margin-bottom: 20px; /* Add some space below the logo */
+}
+
+.logo {
+  width: 150px; /* Set a fixed width for the logo */
+  height: auto; /* Ensure the logo maintains its aspect ratio */
+}
